@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type Suit int
+
 type Rank int
 
 type Card struct {

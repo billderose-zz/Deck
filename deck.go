@@ -33,7 +33,7 @@ func (d *Deck) Shuffle() {
 	sort.Sort(d)
 }
 
-func (d *Deck) String() string {
+func (d Deck) String() string {
 	s := ""
 	for _, card := range d {
 		s += card.String()
